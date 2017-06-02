@@ -1,0 +1,417 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	src: url(../fonts/Montserrat-Regular.eot);
+	src: url(../fonts/Montserrat-Regular.eot?#iefix) format('embedded-opentype'), url(../fonts/Montserrat-Regular.woff) format('woff'), url(../fonts/Montserrat-Regular.woff) format('woff'), url(../fonts/Montserrat-Regular.ttf) format('truetype'), url(../fonts/Montserrat-Regular.svg#glyphicons_halflingsregular) format('svg')
+}
+
+body{	font-family: 'Montserrat', sans-serif; }
+
+.container-fluid {
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (min-width: 1200px){
+.container {
+    width: 1280px !important;
+}
+}
+header {
+	background: #FFF;
+	padding: 30px 0 10px 0 !important;
+}
+nav{ height:180px;  width:100%; float:left;     padding:10px 0 0px 0; margin:0px;}
+
+nav .logo { width:auto; float:left; }
+nav .logo img{ width:40%; }
+nav .logo2 img{ width:25%; float:left; margin-top:8px; margin-bottom:10px; }
+
+.navbar-default {
+    background-color: #FFFFFF;
+    border-color: transparent;
+}
+
+
+ul.nav {	width: 100%;	float: right;	margin:73px 0px 0px 0px;	padding: 0px 0px 0px 13%; }
+ul.nav li {	width: auto;	float: left;	list-style: none;	font-weight:bold; }
+ul.nav li a {	width: auto;	float: left;	list-style: none;	font-weight:bold; color:#FFF !important;	font-size:20px;	padding:0px 15px;}
+ul.nav li.support a:last-child {	color:#000 !important;	font-size:20px;	padding:0px 15px;}
+
+
+ul.nav li.about { background: url(../images/nav_aboutus.png) top center no-repeat; padding:7px 60px; z-index:5;}
+ul.nav li.order { background: url(../images/nav_orderonline.png) top center no-repeat; padding:7px 40px; z-index:3; margin-left:-50px; }
+ul.nav li.support {background: url(../images/nav_localsupport.png) top center no-repeat; padding:7px 40px; z-index:2; margin-left:-60px;}
+
+
+.other-menu{ background:#adb1b6; -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.60);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.60);box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.60); width:100%; float:right; border-top:#000 10px solid !important;}
+.other-menu ul{ float:right; width:auto; margin:0px; padding:10px 0px;}
+.other-menu ul li{ float:left; width:auto; margin:0px; padding:0px; list-style:none;}
+.other-menu ul li a{ color:#FFF; padding:5px 25px; font-size:20px; font-weight:bold;}
+.other-menu ul li a:last-child{ padding-right:5px; }
+.other-menu ul li a:hover{ color:#000; text-decoration:none;}
+
+.anchor{  display: block;  height: 180px; /*same height as header*/  margin-top: -180px; /*same height as header*/  visibility: hidden;}
+/*=======About Section=====*/
+#about{ padding-top:180px;}
+#faq{ padding-top:180px;}
+.about-section {background:#f4f5f6; width:100%; float:left; padding-bottom:50px; }
+.about-section h1{ font-size:60px; color:#000; text-align:center; background:#FFF; width:100%; float: left; padding:20px 0  20px 0 ; font-weight:bold; border-bottom:#bfc0c0 solid 1px;}
+.about-section .about-text{ font-size:27px; color:#000; text-align:left;  width:100%; float: left; line-height:40px; padding:50px 5% 0px 5% ; font-weight:normal;}
+
+.padding-top-bot{padding:45px 0px 55px 0px; width:100%; float:left;}
+
+.about-section-box { padding:0px 15px;}
+.about-section-box .about-section-title{font-size:42px; text-align:center;  width:100%; float: left; line-height:50px; padding:50px 0  20px 0 ; font-weight:normal;}
+.about-section-box .about-section-discription{font-size:20px; color:#000; text-align:left;  width:100%; float: left; line-height:35px; padding:20px 0px; font-weight:normal;}
+
+.blue-bg{background:#00aeef; color:#FFF; padding:10px 10px; text-align:center; width:100%; float:left; font-size:40px; }
+.pink-bg{background:#ec008c; color:#FFF; padding:10px 10px; text-align:center; width:100%; float:left; font-size:40px; }
+.yellow-bg{background:#fff200; color:#000; padding:10px 10px; text-align:center; width:100%; float:left; font-size:40px; }
+
+
+
+
+/*=======order online Section=====*/
+
+.online-order-section {background:#FFF; width:100%; float:left; padding-bottom:0px; }
+.online-order-section h1{ font-size:60px; color:#000; text-align:center; background:#FFF; width:100%; float: left; padding:20px 0  20px 0 ; font-weight:bold; border-bottom:#bfc0c0 solid 1px; margin:0px;}
+
+.online-order-section .black-bg{ background:#00AEEF; padding:20px; font-size:20px; color:#FFF; padding-left:89px; border-right:#000 solid 1px;}
+.online-order-section .sky-blue-bg{background:#00aeef; padding:20px; font-size:20px; color:#FFF;}
+
+.online-order-section .left-box h2{ font-size:35px; color:#FFF;}
+.online-order-section .left-box ol { margin:0px 0px 0px 20px; padding:0px;}
+.online-order-section .left-box ol li{ font-size:17px; color:#FFF; line-height:30px;}
+.online-order-section .left-box .btn{ background:#EEE ; color:#000; text-align:center; width:auto; padding:10px 25px; -webkit-box-shadow: 0 1px 3px 1px #666;
+box-shadow: 0 1px 3px 1px #666; border-radius:0px; font-weight:bold; margin-top:15px;}
+
+.online-order-section .right-box h2{ font-size:35px; color:#FFF;}
+.online-order-section .right-box p{ font-size:20px; color:#FFF; line-height:30px;}
+.online-order-section .right-box .btn{ background:#EEE ; color:#000; text-align:center; width:auto; padding:10px 25px; -webkit-box-shadow: 0 1px 3px 1px #666;
+box-shadow: 0 1px 3px 1px #666; border-radius:0px; font-weight:bold; margin-top:94px;}
+
+
+/*=======support Section=====*/
+
+.support-section {background:#f4f5f6; border-top:#ccc solid 1px; padding:50px 0 100px 0; width:100%; float:left;     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31); position:relative;  }
+.support-section h1{ font-size:60px; color:#000; text-align:center;  width:100%; float: left; padding:20px 0  20px 0 ; font-weight:bold; margin:0px;}
+.support-section p{ font-size:24px; color:#000; text-align:center;  width:100%; float: left; padding:0px 0  20px 0 ; font-weight:normal; margin:10px 0px 0px 0px;}
+.support-section .logo{ width:400px; float:none; margin:0 auto; z-index:9; position:relative;}
+.support-section .gallery{ width:100%; float:left; border-top:#000 solid 15px; position:relative;  margin:-80px 0 0 0; padding:0px; }
+.support-section .gallery img{ width:100%; float:left;}
+.support-section .gallery-thumb{ width:100%; float:left; border-top:#000 solid 15px; border-bottom:#000 solid 15px;  }
+.support-section .gallery-thumb ul { width:100%; float:left; margin:0px; padding:0px; }
+.support-section .gallery-thumb ul li{  float:left; margin:0px; padding:0px; list-style:none;  }
+.support-section .gallery-thumb ul li.img1{ width:12.5%; float:left; margin:0px; padding:0px; list-style:none; }
+.support-section .gallery-thumb ul li.img2{ width:25%; float:left; margin:0px; padding:0px; list-style:none; }
+
+.support-section .gallery-thumb ul li img{ width:100%; float:left; margin:0px; padding:0px; list-style:none; }
+
+.padding-right-none{padding:0px; }
+.padding-left-none{ padding:0px ;}
+
+
+
+.gallery-bottom{ font-size:36px ; text-align:center; margin-top:50px; width:100%; float:left; font-weight:bold; color:#000;}
+
+
+.pta-section{background:#FFF;  padding:80px 0; width:100%; float:left; }
+.pta-section .left-text{width:100%; float:left; font-size:22pt; font-weight:bold;  padding-left:50px; padding-top:25px;}
+
+
+.support-section3 {background:#f4f5f6; border-top:#ccc solid 1px; padding:40px 0; width:100%; float:left;     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31); position:relative;  }
+
+.support-section3  h3{ font-size:20pt; font-weight:bold;}
+.support-section3  p{ font-size:18px; font-weight:normal; line-height:28px;}
+.support-section3 .btn{ background:#ec008c; color:#FFF; text-align:center; width:auto; padding:10px 25px; -webkit-box-shadow: 0 1px 3px 1px #666;
+box-shadow: 0 1px 3px 1px #666; border-radius:0px; font-weight:bold; margin-top:30px;}
+
+
+footer {background:#f4f5f6; border-top:#ccc solid 1px; padding:20px 0 20px 0; width:100%; float:left;     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31); position:relative;  margin-top:150px;}
+footer .container{ padding:10px 13%;}
+footer ul{ padding:0px; margin:0px;}
+footer ul li{ padding:0px; margin:0px; list-style:none;}
+footer ul li a{ padding:0px; margin:0px; list-style:none; color:#000;}
+
+
+section {    padding: 0px 0 0px 0; width:100%; float:left;}
+h1{ margin:0px;}
+
+
+/*=======Page 2 =====*/
+
+
+/*======= Section=====*/
+
+.page2-section {background:#f4f5f6; width:100%; float:left; padding-bottom:50px;  }
+.page2-section h1{ font-size:60px; color:#000; text-align:center; background:#FFF; width:100%; float: left; padding:20px 0  20px 0 ; font-weight:bold; margin-bottom:50px;}
+
+.page2-section .left-box .table {	width:100%;	height:100%;	position:absolute;	display:table; 	}
+.page2-section .left-box .cell {	display:table-cell;	vertical-align:middle;	text-align:center;	width:100%;	height:100%;	color:#FFF;}
+
+.page2-section .left-box img{ width:250px; height:auto; float:right; margin-right:25px; position:relative; top:50%;}
+.page2-section .faq-text{ font-size:27px; color:#000; text-align:center;  width:100%; float: left; line-height:50px; padding:50px 0  20px 0 ; font-weight:normal;}
+
+
+.page2-section .right-box ul li.q{ width:100%; float:left; font-size:18px; font-weight:bold; list-style:none; margin-top:15px;}
+.page2-section .right-box ul li.q:before { content:"Q:"; float:left; margin-right:5px;}
+
+.page2-section .right-box ul li.a{ width:auto; float:left; font-size:17px; font-weight:normal; list-style:none;}
+.page2-section .right-box ul li.a:before { content:"A:"; padding-bottom:25px; float:left; margin-right:5px;}
+.page2-section .right-box ul li.a.none:before{ padding-bottom:0px !important; }
+
+
+#faq{-webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31); width:100%; float:left;}
+
+#faq .page2-section h1{ font-size:60px; color:#000; text-align:left; background:#FFF; width:100%; float: left;  font-weight:bold; margin-bottom:50px;}
+
+#warranty{-webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31); width:100%; float:left;}
+#warranty .page2-section h1{ font-size:60px; color:#000; text-align:left; background:#FFF; width:100%; float: left;  font-weight:bold; margin-bottom:50px; margin-top:0px;}
+
+#recycling{-webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31); width:100%; float:left;}
+
+
+#warranty .left-box img{ width:250px; height:auto; float:right; margin-right:25px; position:relative; top:0%;}
+#warranty .right-box h4{ width:100%; float:left; font-size:18px; font-weight:bold; list-style:none; margin-top:15px;}
+#warranty .right-box p{ width:100%; float:left; font-size:17px; font-weight:normal; list-style:none; margin-top:15px;}
+#warranty .right-box .link{ width:100%; float:left; font-size:28px; font-weight:bold; list-style:none; margin-top:15px;}
+#warranty .right-box .link a{  font-size:28px; font-weight:bold; list-style:none;  color:#ec008c;}
+
+
+#recycling .page2-section h1{ font-size:60px; color:#005826; text-align:left; background:#FFF; width:100%; float: left;  font-weight:bold; margin-bottom:50px; margin-top:0px;}
+
+#recycling  .left-box img{ width:250px; height:auto; float:right; margin-right:25px; position:relative; top:10%;}
+#recycling  .right-box p{ width:100%; float:left; font-size:20px; font-weight:normal; list-style:none; margin-top:15px; line-height:35px;}
+
+.desktop-view{display:block;}
+.mobile-view{display:none;}
+
+@media only screen and (min-width:320px) and (max-width: 374px){
+.navbar .navbar-toggle {    position: absolute;    float: right;    margin-right: 0px;    padding: 9px 10px;    margin-top: 0px;    margin-bottom: 13px;    background-color: #000;    background-image: none;    border: 1px solid transparent;    border-radius: 0px;    top:225px;    right: 0px; z-index:999;}
+}
+
+@media only screen and (min-width:375px) and (max-width: 413px){
+.navbar .navbar-toggle {    position: absolute;    float: right;    margin-right: 0px;    padding: 9px 10px;    margin-top: 0px;    margin-bottom: 13px;    background-color: #000;    background-image: none;    border: 1px solid transparent;    border-radius: 0px;    top:245px;    right: 0px; z-index:999;}
+}
+
+@media only screen and (min-width:414px) and (max-width: 434px){
+.navbar .navbar-toggle {    position: absolute;    float: right;    margin-right: 0px;    padding: 9px 10px;    margin-top: 0px;    margin-bottom: 13px;    background-color: #000;    background-image: none;    border: 1px solid transparent;    border-radius: 0px;    top:255px;    right: 0px; z-index:999;}
+}
+
+@media only screen and (min-width:435px) and (max-width: 480px){
+.navbar .navbar-toggle {    position: absolute;    float: right;    margin-right: 0px;    padding: 9px 10px;    margin-top: 0px;    margin-bottom: 13px;    background-color: #000;    background-image: none;    border: 1px solid transparent;    border-radius: 0px;    top:263px;    right: 0px; z-index:999;}
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 767px)  {
+.desktop-view{display:none;}
+.mobile-view{display:block;}
+
+.container-fluid {     padding-right: 0px; padding-left: 0px;    margin-right: auto;    margin-left: auto;}
+nav .logo {    width: auto;    float: none;    margin: auto;}
+nav .logo img {    width: 100%;    padding: 0 25%;}
+
+.navbar .pull-right {    float: none !important;    margin: 20px auto 10px auto;    width: 40%;}
+.navbar-fixed-top, .navbar-fixed-bottom {    position: relative;    right: 0;    left: 0;    z-index: 1030; height:auto;}
+.navbar {    position: relative;    min-height: 60px;    margin-bottom: 0px;    border: 1px solid transparent;}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {    border-color: transparent;    background: #FFF;    border-top: 0px solid #EEE;}
+ul.nav {    width: 100%;    float: right;    margin: 10px 0px 0px 0px;    padding: 0px 0px 0px 0%; border-bottom: #000 10px solid !important;}
+ul.nav li {    width: 100%;    float: inherit;    list-style: none;    font-weight: bold;    color: #000;    text-align: center; margin: 0px 0px;}
+ul.nav li a {    width: 100%;    float: left;    list-style: none;    font-weight: bold;    color: #FFF !important;    font-size: 18px;    padding: 0px 15px;}
+ul.nav li.support a:last-child {  color: #000 !important;    font-size: 18px;    padding: 0px 15px;}
+
+nav.mobile-view .col-xs-12{ padding:0px;}
+
+.other-menu {    background: #adb1b6;    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.60);    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.60);    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.60);    width: 100%;    float: right;    border-top: #000 0px solid !important;
+}
+.other-menu ul {    float: right;    width:100% !important;    margin: 0px;    padding: 10px 0px;}
+.other-menu ul li {    float: left;    width: 100%;    margin: 0px;    padding: 0px;    list-style: none; }
+.other-menu ul li a {    color: #FFF;    padding: 6px 0%; width:100%;    font-size: 17px;    font-weight: bold; float: left; white-space:nowrap; text-align:center;}
+
+.about-section h1 {    font-size: 30px !important; padding-top:40px !important; margin-top:0px; background:#FFF; color:#FFF; padding-bottom:40px;   }	
+.about-section h1 span {  background:#ec008c; padding:5px 0px; width:100%; float:left; -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.60);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.60);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.60);}	
+h1 {    font-size: 30px !important; padding-top:0px !important; text-align:center !important; }	
+.about-section .about-text {    font-size: 16px;    color: #000;    text-align: left;    width: 100%;    float: left;    line-height: 27px;    padding:20px 20px 0px 20px;    font-weight: normal;}
+.about-section {    background: #f4f5f6;    width: 100%;    float: left;    padding-bottom: 20px;}
+
+
+.padding-top-bot {    padding: 20px 0px;    width: 100%;    float: left;}
+.about-section-box {    padding: 0px 0px;}
+.about-section-box .about-section-discription {    font-size: 16px;    color: #000;    text-align: left;    width: 100%;    float: left;    line-height: 26px;    padding:20px 0px 0px 0px;    font-weight: normal;}
+
+.blue-bg{background: #00aeef;    color: #FFF;    padding: 4px 25px;    text-align: center;    width: 150px;    float: none;    font-size: 21px;    text-shadow: 0 1px 3px rgba(51, 51, 51, 0);    margin: 0 auto;}
+.pink-bg{background:#ec008c; color:#FFF; padding:4px 25px; text-align:center; width:150px; float:none; font-size:21px; text-shadow: 0 1px 3px rgba(51, 51, 51, 0);    margin: 0 auto;}
+.yellow-bg{background:#fff200; color:#000; padding:4px 25px; text-align:center; width:215px; float:none; font-size:21px; text-shadow: 0 1px 3px rgba(51, 51, 51, 0);    margin: 0 auto;}
+section {    padding: 0px 0 0px 0; width:100%; float:left;}
+	
+.online-order-section h1{margin-top:40px; padding-bottom:40px;}
+.online-order-section .sky-blue-bg {   margin-top: 40px;}
+.online-order-section .black-bg {    background: #00AEEF;    padding: 20px;    font-size: 20px;    color: #FFF;    padding-left: 20px; text-align:center;}	
+.online-order-section .left-box h2 {    font-size: 24px;    color: #FFF; text-align:center;}
+.online-order-section .left-box ul {  margin:0px; padding:0px;}
+.online-order-section .left-box ul li {    font-size: 14px;    color: #FFF;    line-height: 30px; text-align:center; list-style:none;}
+
+/*.online-order-section .left-box .btn {    background: #EEE;    color: #000;    text-align: center;    width: auto;    padding: 10px 25px;    -webkit-box-shadow: 0 1px 3px 1px #666;    box-shadow: 0 1px 3px 1px #666;    border-radius: 0px;    font-weight: bold;    margin-top: 15px;    float: none !important;}
+*/
+.online-order-section .right-box h2 {    font-size: 24px;    color: #FFF; text-align:center;}
+.online-order-section .right-box p {    font-size: 14px;    color: #FFF;    line-height: 30px; text-align:center;}
+.online-order-section .right-box .btn{ margin-top:10px; text-align:center;}
+
+#about {    padding-top: 0px;}
+
+.support-section {    background: #f4f5f6;    border-top: #ccc solid 1px;    padding: 0px 0 20px 0;}
+.support-section h1 {    font-size: 30px !important; padding-top:40px !important; margin-top:0px; background:#FFF; color:#000; padding-bottom:40px;   }	
+.support-section h1 span {  background:#fff200; padding:5px 0px; width:100%; float:left; -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.60);}
+
+
+.support-section{ padding:0px 0px 20px 0px;}
+.support-section p {    font-size: 16px;    color: #000;    text-align: center;    width: 100%;    float: left;    padding: 10px 15px 10px 15px;    font-weight: normal;    margin: 10px 0px 0px 0px;}
+.support-section .logo {    width: 300px;    float: none;    margin: 0 auto;    z-index: 9;    position: relative;}
+.support-section .gallery {    width: 100%;    float: left;    border-top: #000 solid 15px;    position: relative;    margin: -50px 0 0 0;    padding: 0px;}
+.gallery-bottom {    font-size: 25px;    text-align: center;    margin-top: 50px;    width: 100%;    float: left;    font-weight: bold;    color: #000;    padding: 0 10px;}
+	
+.pta-section {    background: #FFF;    padding: 20px 0;    width: 100%;    float: left; }
+.pta-section .col-md-1{ display:none;}
+.pta-section .left-text {    width: 100%;    float: left;    font-size: 18px;    font-weight: bold;    padding-left: 0px;    padding-top: 25px; margin-bottom:20px;}
+
+.support-section3 h3 {    font-size: 16px;    font-weight: bold;}
+.support-section3 p {    font-size: 16px;    font-weight: normal;    line-height: 28px;}
+
+footer {     margin-top: 50px; text-align:center;}
+footer .container {    padding: 10px 2%;}
+footer .col-sm-3 {  padding:10px 1% !important; width:50% !important; float:left; text-align:center; font-size:12px;}
+footer .col-sm-3 img { width:auto; float:none; display:inline;}
+footer ul li {    padding: 0px;    margin: 5px 0px;    list-style: none;}
+#faq h1{ padding-top:20px !important;}
+.page2-section .left-box .table {    width: 100%;    height: 100%;    position: relative;    display: table;}
+
+.page2-section .right-box ul{ margin:0px; padding:0px ; width:100%; float:left;}
+.page2-section .right-box ul li{ margin:10px 0; padding:0px ; width:100%; float:left;}
+.page2-section .right-box ul li.q {    width: 100%;    float: left;    font-size: 18px;    font-weight: bold;    list-style: none; margin-top: 10px;    margin-bottom: 0px;}
+.page2-section .right-box ul li.a {    width: auto;    float: left;    font-size: 17px;    font-weight: normal;    list-style: none;}	
+.page2-section .right-box ul li.a:before {    content: "A:"; padding-bottom:0px; float: left;    margin-right: 5px;}
+
+#faq {    padding-top: 0px;     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0);
+ box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0);  }
+
+#warranty {    padding-top: 20px;}
+#recycling {    padding-top: 20px;}
+
+.page2-section .left-box img {    width: 250px;    height: auto;    float: none;    margin-right: auto;    position: relative;    top:0%;    margin-left: auto;}
+#warranty .left-box img {    width: 250px;    height: auto;    float: none;    margin-right: auto;    position: relative;    top: 0%;    margin-left: auto;}
+#recycling .left-box img {    width: 250px;    height: auto;    float: none;    margin-right: auto;    position: relative;    top: 0%;    margin-left: auto;}
+
+#warranty .right-box .link {    width: 100%;    float: left;    font-size: 18px;    font-weight: bold;    list-style: none;    margin-top: 15px;}
+#warranty .right-box .link a {    font-size: 18px;    font-weight: bold;    list-style: none;    color: #ec008c;}
+
+#recycling .right-box p {    width: 100%;    float: left;    font-size: 16px;    font-weight: normal;    list-style: none;    margin-top: 15px;    line-height: 28px;}
+	}
+
+@media only screen and (min-width:768px) and (max-width: 1279px)  {
+	
+nav .logo {    width: auto;    float: left;    position: relative; z-index:999;}
+nav .logo img{    width: 40%    }
+nav .logo2 img{    width: 35%;    }
+
+nav {    height: auto;    width: 100%;    float: left;    padding: 10px 0 0px 0;    margin: 0px;}
+ul.nav {    width: 93%;    float: right;    margin:20px auto 0px auto !important;    padding: 0px 0px 0px 0%;}
+ul.nav li a {    width: auto;    float: left;    list-style: none;    font-weight: bold;    color: #fff !important;    font-size: 16px;    padding: 0px 15px;}
+ul.nav li.support a:last-child {font-size: 16px;    padding: 0px 15px; color: #000 !important;}
+.container-fluid {    padding-right: 0px;    padding-left: 0px;    margin-right: auto;    margin-left: auto;}
+.other-menu ul li a {    color: #FFF;    padding: 5px 20px;    font-size: 20px;    font-weight: bold;}
+
+.online-order-section .black-bg {    background: #00AEEF;    padding: 20px;    font-size: 20px;    color: #FFF;    padding-left: 20px; border-right:#000 solid 1px}
+
+.pta-section .left-text {    width: 100%;    float: left;    font-size: 18pt;    font-weight: bold;    padding-left: 0px;    padding-top: 0px;}
+
+.about-section .about-text {    font-size: 20px;    color: #000;    text-align: left;    width: 100%;    float: left;    line-height: 40px;    padding: 50px 0 20px 0;    font-weight: normal;}
+.about-section-box {    padding: 0px 0px;}
+.blue-bg{background:#00aeef; color:#5bc7ef; padding:10px 10px; text-align:center; width:100%; float:left; font-size:30px; text-shadow: 0 1px 3px #333;}
+.pink-bg{background:#ec008c; color:#ed6cb8; padding:10px 10px; text-align:center; width:100%; float:left; font-size:30px; text-shadow: 0 1px 3px #333;}
+.yellow-bg{background:#fff200; color:#c9bf02; padding:10px 10px; text-align:center; width:100%; float:left; font-size:30px; text-shadow: 0 1px 3px #333;}
+.about-section-box .about-section-discription {    font-size: 16px;    color: #000;    text-align: left;    width: 100%;    float: left;    line-height: 35px;    padding: 20px 0px;    font-weight: normal;}
+
+.online-order-section .left-box ol li {    font-size: 16px;    color: #FFF;    line-height: 30px;}
+.online-order-section .right-box p {    font-size: 16px;    color: #FFF;    line-height: 30px;}
+.support-section p {    font-size: 20px;    color: #000;    text-align: center;    width: 100%;    float: left;    padding: 0px 0 20px 0;    font-weight: normal;    margin: 10px 0px 0px 0px;}
+.support-section h1 {    font-size: 40px;    color: #000;    text-align: center;    width: 100%;    float: left;    padding: 0px 0 20px 0 !important;    font-weight: bold;
+    margin: 0px;
+}
+.gallery-bottom {    font-size: 23px;    text-align: center;    margin-top: 50px;    width: 100%;    float: left;    font-weight: bold;    color: #000;}
+.support-section p {    font-size: 16px;    color: #000;    text-align: center;    width: 100%;    float: left;    padding: 0px 0 20px 0;    font-weight: normal;    margin: 10px 0px 0px 0px;}
+.support-section3 h3 {    font-size: 16pt;    font-weight: bold;    margin-top: 0px;}
+.support-section3 p {    font-size: 13px;    font-weight: normal;    line-height: 28px;}
+
+h1 {    font-size: 40px !important;    color: #000;    text-align: center;    width: 100%;    float: left;    padding: 50px 0 20px 0 !important;
+}
+
+.page2-section .left-box{width: 100%;    float: left;    position: relative;}
+.page2-section .left-box .table {    width: 100%;    height: 100%;    position: relative;    display: table;}
+.page2-section .left-box img {    width: 50%;    height: auto;    float: none;    margin-right: 25px;    position: relative;    top: 0%;}
+.page2-section .right-box ul{ margin:0px; padding:0px ; width:100%; float:left;}
+.page2-section .right-box ul li{ margin:5px 0; padding:0px ; width:100%; float:left;}
+
+#warranty .left-box img {    width: 50%;    height: auto;    float: none;    margin-right: 25px;    position: relative;    top: 0%;}
+#recycling .left-box img {    width: 50%;    height: auto;    float: none;    margin-right: 25px;    position: relative;    top: 0%;}
+	footer .container{ padding:10px 0%;}
+	}
+
+
+@media only screen and (min-width:1280px) and (max-width: 1366px)  {
+.other-menu ul {    float: right;    width: auto;    margin: 0px 10% 0px 0px;    padding: 10px 0px;}	
+.about-section .about-text {    font-size: 24px;    color: #000;    text-align: center;    width: 100%;    float: left;    line-height: 50px;    padding: 50px 0 20px 0;    font-weight: normal;}
+
+.support-section p {    font-size: 20px;    color: #000;    text-align: center;    width: 100%;    float: left;    padding: 0px 0 20px 0;    font-weight: normal;    margin: 10px 0px 0px 0px;}
+
+
+.gallery-bottom {    font-size: 31px;    text-align: center;    margin-top: 50px;    width: 100%;    float: left;    font-weight: bold;    color: #000;}
+.page2-section h1{padding:20px 0  20px 38% !important;}
+footer .container{ padding:10px 15%;}
+	}
+	
+@media only screen and (min-width:1600px) and (max-width: 1919px)  {	
+.other-menu ul {    float: right;    width: auto;    margin: 0px 4% 0px 0px;    padding: 10px 0px;}	
+.support-section .gallery img{ width:100%; float:left;}
+.page2-section h1{padding:20px 0  20px 40% !important;}
+
+	}
+@media only screen and (min-width:1920px) and (max-width: 2559px)  { 
+
+.container { width: 1350px !important;}
+
+ul.nav {    width: 100%;    float: right;    margin: 75px 0px 0px 0px;    padding: 0px 0px 0px 15%;}
+.online-order-section .black-bg {    background: #00AEEF;    padding: 20px;    font-size: 20px;    color: #FFF;    padding-left: 18%; border-right:#000 solid 1px;}
+footer .container{ padding:10px 12%;}
+.page2-section h1{padding:20px 0  20px 41% !important;}
+
+}
+@media only screen and (min-width:2560px) and (max-width: 3839px)  {
+.online-order-section .black-bg {    background:#00AEEF;    padding: 20px;    font-size: 20px;    color: #FFF;    padding-left: 20%; border-right:#000 solid 1px;}
+
+footer .container{ padding:10px 10%;}
+.page2-section h1{padding:20px 0  20px 44% !important;}
+	 }
+@media only screen and (min-width:3640px) and (max-width: 5560px)  {
+	
+.online-order-section .black-bg {    background:#00AEEF;    padding: 20px;    font-size: 20px;    color: #FFF;    padding-left: 31%; border-right:#000 solid 1px;}
+footer .container{ padding:10px 7%;}
+.page2-section h1{padding:20px 0  20px 46% !important;}
+	 }
+
